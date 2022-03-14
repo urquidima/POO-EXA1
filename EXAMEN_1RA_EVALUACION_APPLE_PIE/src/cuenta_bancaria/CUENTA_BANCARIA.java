@@ -56,6 +56,12 @@ public class CUENTA_BANCARIA {
         saldo=0;
     }
     
+    CUENTA_BANCARIA(long numCuenta, String nomrbre, double saldo){
+        this.numCuenta=numCuenta;
+        this.nombre=nombre;
+        this.saldo=saldo;
+    }
+    
     void depositarEnCuenta(double valor){
         saldo+=valor;
     }
